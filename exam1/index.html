@@ -1,4 +1,4 @@
-[11/24/2026 6:02 PM] رمضان محروص: <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
@@ -21,9 +21,7 @@
       --success: #059669;
       --danger: #dc2626;
     }
-
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
       font-family: 'Cairo', sans-serif;
       background-color: var(--bg);
@@ -31,7 +29,6 @@
       line-height: 1.7;
       min-height: 100vh;
     }
-
     .top-banner {
       background: linear-gradient(135deg, #043927 0%, #065f46 100%);
       color: #fff;
@@ -40,7 +37,6 @@
       border-bottom: 4px solid var(--accent);
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
-
     .academy-title {
       font-family: 'Amiri', serif;
       font-size: 2.6rem;
@@ -50,14 +46,7 @@
       margin-bottom: 6px;
       text-shadow: 0 2px 4px rgba(0,0,0,0.25);
     }
-
-    .exam-subtitle {
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: #ffffff;
-      opacity: 0.95;
-    }
-
+    .exam-subtitle { font-size: 1.2rem; font-weight: 700; color: #ffffff; opacity: 0.95; }
     .badge-level {
       display: inline-block;
       margin-top: 10px;
@@ -69,13 +58,7 @@
       font-size: 0.9rem;
       font-weight: 600;
     }
-
-    .container {
-      max-width: 820px;
-      margin: 26px auto 50px;
-      padding: 0 16px;
-    }
-
+    .container { max-width: 820px; margin: 26px auto 50px; padding: 0 16px; }
     .card {
       background: var(--card);
       border-radius: 16px;
@@ -84,19 +67,10 @@
       border: 1px solid var(--border);
       margin-bottom: 22px;
     }
-
     .welcome-box { text-align: center; padding: 10px 0; }
     .welcome-box h2 { color: var(--primary); font-size: 1.45rem; margin-bottom: 10px; }
     .welcome-box p { color: var(--muted); font-size: 0.98rem; margin-bottom: 24px; }
-
-    .info-pills {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-bottom: 26px;
-    }
-
+    .info-pills { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 26px; }
     .pill {
       background: #ecfdf5;
       color: var(--primary);
@@ -106,21 +80,8 @@
       font-size: 0.88rem;
       font-weight: 700;
     }
-
-    .form-group {
-      max-width: 440px;
-      margin: 0 auto 18px;
-      text-align: right;
-    }
-
-    .form-group label {
-      display: block;
-      font-weight: 700;
-      margin-bottom: 6px;
-      color: var(--primary);
-      font-size: 0.95rem;
-    }
-
+    .form-group { max-width: 440px; margin: 0 auto 18px; text-align: right; }
+    .form-group label { display: block; font-weight: 700; margin-bottom: 6px; color: var(--primary); font-size: 0.95rem; }
     .form-control {
       width: 100%;
       padding: 12px 16px;
@@ -130,21 +91,12 @@
       font-size: 1rem;
       transition: 0.2s;
     }
-
     .form-control:focus {
       outline: none;
       border-color: var(--primary-light);
       box-shadow: 0 0 0 3px rgba(4, 120, 87, 0.12);
     }
-
-    .error-msg {
-      color: var(--danger);
-      font-size: 0.88rem;
-      font-weight: 700;
-      margin-top: 6px;
-      display: none;
-    }
-
+    .error-msg { color: var(--danger); font-size: 0.88rem; font-weight: 700; margin-top: 6px; display: none; }
     .btn {
       display: inline-flex;
       align-items: center;
@@ -161,13 +113,13 @@
       cursor: pointer;
       transition: 0.2s;
       box-shadow: 0 4px 12px rgba(6, 78, 59, 0.2);
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
     }
-[11/24/2026 6:02 PM] رمضان محروص: .btn:hover { background: var(--primary-light); transform: translateY(-1px); }
+    .btn:hover { background: var(--primary-light); transform: translateY(-1px); }
     .btn:disabled { opacity: 0.65; cursor: not-allowed; transform: none; }
-
     .btn-gold { background: var(--accent); box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25); }
     .btn-gold:hover { background: #b45309; }
-
     .sticky-bar {
       position: sticky;
       top: 0;
@@ -185,13 +137,11 @@
       flex-wrap: wrap;
       gap: 10px;
     }
-
     .student-tag { font-weight: 700; color: var(--primary); font-size: 0.95rem; }
     .progress-wrap { flex: 1; min-width: 180px; max-width: 320px; }
     .progress-text { display: flex; justify-content: space-between; font-size: 0.82rem; font-weight: 700; color: var(--muted); margin-bottom: 4px; }
     .progress-bg { background: #e5e7eb; height: 8px; border-radius: 99px; overflow: hidden; }
     .progress-fill { background: linear-gradient(90deg, var(--primary), var(--accent)); height: 100%; width: 0%; transition: width 0.3s ease; }
-
     .section-header {
       background: linear-gradient(90deg, #ecfdf5 0%, #fffbeb 100%);
       border-right: 5px solid var(--primary);
@@ -202,7 +152,6 @@
       font-weight: 800;
       color: var(--primary);
     }
-
     .question-card {
       background: var(--card);
       border: 1px solid var(--border);
@@ -211,22 +160,8 @@
       margin-bottom: 16px;
       transition: border-color 0.2s;
     }
-
-    .question-card.unanswered-highlight {
-      border: 2px solid var(--danger);
-      background: #fef2f2;
-    }
-
-    .q-title {
-      font-size: 1.06rem;
-      font-weight: 700;
-      margin-bottom: 14px;
-      color: #111827;
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
-    }
-
+    .question-card.unanswered-highlight { border: 2px solid var(--danger); background: #fef2f2; }
+    .q-title { font-size: 1.06rem; font-weight: 700; margin-bottom: 14px; color: #111827; display: flex; gap: 10px; align-items: flex-start; }
     .q-num {
       background: var(--primary);
       color: #fff;
@@ -240,9 +175,7 @@
       font-weight: 700;
       margin-top: 2px;
     }
-
     .options-list { display: flex; flex-direction: column; gap: 10px; }
-
     .option-label {
       display: flex;
       align-items: center;
@@ -254,25 +187,17 @@
       transition: all 0.18s ease;
       font-weight: 600;
       background: #fafafa;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
     }
-
     .option-label:hover { border-color: var(--primary-light); background: #f0fdf4; }
-    .option-label input[type="radio"] { accent-color: var(--primary); width: 18px; height: 18px; cursor: pointer; }
+    .option-label input[type="radio"] { accent-color: var(--primary); width: 18px; height: 18px; cursor: pointer; flex-shrink: 0; }
     .option-label.selected { border-color: var(--primary); background: #ecfdf5; color: var(--primary); }
-
     .result-card { text-align: center; border-top: 6px solid var(--accent); }
-    .sync-status {
-      display: inline-block;
-      padding: 6px 16px;
-      border-radius: 50px;
-      font-size: 0.88rem;
-      font-weight: 700;
-      margin-bottom: 16px;
-    }
+    .sync-status { display: inline-block; padding: 6px 16px; border-radius: 50px; font-size: 0.88rem; font-weight: 700; margin-bottom: 16px; }
     .sync-loading { background: #fef3c7; color: #92400e; }
     .sync-success { background: #d1fae5; color: #065f46; }
     .sync-warning { background: #fee2e2; color: #991b1b; }
-
     .score-circle {
       width: 140px;
       height: 140px;
@@ -287,7 +212,7 @@
       border: 5px solid #fde68a;
       box-shadow: 0 8px 20px rgba(6, 78, 59, 0.2);
     }
-[11/24/2026 6:02 PM] رمضان محروص: .score-big { font-size: 2.2rem; font-weight: 800; line-height: 1.1; }
+    .score-big { font-size: 2.2rem; font-weight: 800; line-height: 1.1; }
     .score-total { font-size: 0.95rem; opacity: 0.9; }
     .grade-badge {
       display: inline-block;
@@ -299,21 +224,12 @@
       font-size: 1.1rem;
       margin: 8px 0 18px;
     }
-
-    .review-item {
-      text-align: right;
-      padding: 14px 16px;
-      border-radius: 10px;
-      margin-bottom: 12px;
-      border: 1px solid var(--border);
-    }
+    .review-item { text-align: right; padding: 14px 16px; border-radius: 10px; margin-bottom: 12px; border: 1px solid var(--border); }
     .review-correct { background: #f0fdf4; border-color: #86efac; }
     .review-wrong { background: #fef2f2; border-color: #fca5a5; }
     .review-q { font-weight: 700; margin-bottom: 6px; font-size: 0.98rem; }
     .review-ans { font-size: 0.9rem; }
-
     .hidden { display: none !important; }
-
     @media print {
       .no-print { display: none !important; }
       body { background: #fff; }
@@ -335,7 +251,7 @@
       <div class="welcome-box">
         <h2>أهلاً بك يا بطل في اختبار المستوى الأول</h2>
         <p>اقرأ كل سؤال بتركيز، واختر الإجابة الصحيحة، ثم اضغط على زر التسليم في نهاية الاختبار.</p>
-        
+
         <div class="info-pills">
           <span class="pill">📚 4 أقسام علمية</span>
           <span class="pill">📝 29 سؤالاً</span>
@@ -353,7 +269,7 @@
           <input type="text" id="student-group" class="form-control" placeholder="مثال: مجموعة النور - 9 سنوات" />
         </div>
 
-        <button class="btn btn-gold" onclick="startExam()">ابدأ الاختبار الآن ◀</button>
+        <button type="button" id="start-btn" class="btn btn-gold">ابدأ الاختبار الآن ◀</button>
       </div>
     </section>
 
@@ -376,7 +292,7 @@
 
       <div class="card" style="text-align: center;">
         <div id="submit-warning" class="error-msg" style="margin-bottom: 14px; font-size: 0.98rem;"></div>
-        <button id="submit-btn" class="btn btn-gold" onclick="submitExam()">إنهاء الاختبار وتسليم الإجابات ✅</button>
+        <button type="button" id="submit-btn" class="btn btn-gold">إنهاء الاختبار وتسليم الإجابات ✅</button>
       </div>
     </section>
 
@@ -384,7 +300,7 @@
     <section id="result-screen" class="hidden">
       <div class="card result-card">
         <div id="sync-status" class="sync-status sync-loading">⏳ جاري إرسال النتيجة إلى إدارة أكاديمية فيض...</div>
-        
+
         <h2 style="color: var(--primary); font-size: 1.5rem;">تقرير نتيجة الطالب</h2>
         <p style="font-size: 1.1rem; font-weight: 700; margin-top: 6px;" id="res-student-name"></p>
         <p style="color: var(--muted); font-size: 0.92rem;" id="res-student-group"></p>
@@ -393,12 +309,12 @@
           <span class="score-big" id="res-score">0</span>
           <span class="score-total">من 29 درجة</span>
         </div>
-[11/24/2026 6:02 PM] رمضان محروص: <div class="grade-badge" id="res-grade">ممتاز</div>
+        <div class="grade-badge" id="res-grade">ممتاز</div>
         <p style="font-weight: 700; color: var(--primary); margin-bottom: 20px;" id="res-percent"></p>
 
         <div class="no-print" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
-          <button class="btn" onclick="window.print()">🖨️ طباعة النتيجة / حفظ PDF</button>
-          <button class="btn btn-gold" onclick="location.reload()">🔄 اختبار طالب جديد</button>
+          <button type="button" class="btn" onclick="window.print()">🖨️ طباعة النتيجة / حفظ PDF</button>
+          <button type="button" class="btn btn-gold" onclick="location.reload()">🔄 اختبار طالب جديد</button>
         </div>
       </div>
 
@@ -481,11 +397,7 @@
       },
       {
         q: "ماذا نقول قبل أن نبدأ في الوضوء؟",
-        options: [
-          "الحمد لله.",
-          "بسم الله.",
-          "سبحان الله."
-        ],
+        options: ["الحمد لله.", "بسم الله.", "سبحان الله."],
         answer: 1
       },
       {
@@ -498,7 +410,7 @@
         answer: 0
       },
       {
-        q: "أيٌّ مما يلي يُعد من نواقض الوضوء (الأشياء التي تُبطل الوضوء)؟",
+        q: "أيٌّ مما يلي يُعد من نواقض الوضوء (الأشياء التي تُبطل الوضوء)؟",
         options: [
           "شرب الماء أو العصير.",
           "الخارج من السبيلين، والنوم المستغرق، وأكل لحم الإبل، ولمس العورة.",
@@ -508,11 +420,7 @@
       },
       {
         q: "إذا فُقد الماء أو لم يستطع المسلم استخدامه، كيف يتطهر للصلاة؟",
-        options: [
-          "يغتسل.",
-          "يتيمم.",
-          "يصلي بدون طهارة."
-        ],
+        options: ["يغتسل.", "يتيمم.", "يصلي بدون طهارة."],
         answer: 1
       },
       {
@@ -524,7 +432,8 @@
         ],
         answer: 1
       },
-[11/24/2026 6:02 PM] رمضان محروص: // القسم الثالث: فقه الصلاة
+
+      // القسم الثالث: فقه الصلاة
       {
         section: "القسم الثالث: فقه الصلاة (المستوى الأول)",
         q: "بعد أن يتوضأ المسلم ويستقبل القبلة، كيف يبدأ صلاته؟",
@@ -564,11 +473,7 @@
       },
       {
         q: "ما الذكر الذي نقوله أثناء السجود؟",
-        options: [
-          "سبحان ربي العظيم.",
-          "سبحان ربي الأعلى.",
-          "ربنا ولك الحمد."
-        ],
+        options: ["سبحان ربي العظيم.", "سبحان ربي الأعلى.", "ربنا ولك الحمد."],
         answer: 1
       },
       {
@@ -608,7 +513,7 @@
         answer: 0
       },
       {
-        q: "أيٌّ مما يلي يُعد من مبطلات الصلاة؟",
+        q: "أيٌّ مما يلي يُعد من مبطلات الصلاة؟",
         options: [
           "النظر إلى موضع السجود.",
           "الأكل والشرب، والضحك، والكلام، وانتقاض الوضوء، والحركة الكثيرة المتوالية لغير حاجة.",
@@ -651,7 +556,7 @@
         options: [
           "اللهم بك أمسينا وبك أصبحنا وبك نحيا وبك نموت وإليك المصير.",
           "اللهم بك أصبحنا وبك أمسينا وبك نحيا وبك نموت وإليك النشور.",
-[11/24/2026 6:02 PM] رمضان محروص: "بسم الله الذي لا يضر مع اسمه شيء (فقط)."
+          "بسم الله الذي لا يضر مع اسمه شيء (فقط)."
         ],
         answer: 1
       },
@@ -675,11 +580,7 @@
       },
       {
         q: "ما هي السورة التي تعدل ثلث القرآن الكريم؟",
-        options: [
-          "سورة الإخلاص.",
-          "سورة الفلق.",
-          "سورة الفاتحة."
-        ],
+        options: ["سورة الإخلاص.", "سورة الفلق.", "سورة الفاتحة."],
         answer: 0
       }
     ];
@@ -687,6 +588,13 @@
     let studentName = "";
     let studentGroup = "";
     const userAnswers = new Array(examData.length).fill(null);
+    const letters = ["أ", "ب", "ج"];
+
+    function escapeHtml(str) {
+      return String(str).replace(/[&<>"']/g, function (c) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+      });
+    }
 
     function startExam() {
       const nameInput = document.getElementById("student-name").value.trim();
@@ -714,29 +622,28 @@
     function renderQuestions() {
       const container = document.getElementById("questions-container");
       let html = "";
-      const letters = ["أ", "ب", "ج"];
 
-      examData.forEach((item, index) => {
+      examData.forEach(function (item, index) {
         if (item.section) {
-          html += <div class="section-header">${item.section}</div>;
+          html += `<div class="section-header">${item.section}</div>`;
         }
 
-        html += 
+        html += `
           <div class="question-card" id="q-card-${index}">
             <div class="q-title">
               <span class="q-num">${index + 1}</span>
               <span>${item.q}</span>
             </div>
             <div class="options-list">
-              ${item.options.map((opt, optIdx) => 
-                <label class="option-label" id="opt-label-${index}-${optIdx}" onclick="selectOption(${index}, ${optIdx})">
-                  <input type="radio" name="q-${index}" value="${optIdx}" />
+              ${item.options.map(function (opt, optIdx) {
+                return `
+                <label class="option-label" id="opt-label-${index}-${optIdx}">
+                  <input type="radio" name="q-${index}" value="${optIdx}" data-q="${index}" data-opt="${optIdx}" />
                   <span><strong>${letters[optIdx]})</strong> ${opt}</span>
-                </label>
-              ).join("")}
+                </label>`;
+              }).join("")}
             </div>
-          </div>
-        ;
+          </div>`;
       });
 
       container.innerHTML = html;
@@ -745,29 +652,29 @@
     function selectOption(qIdx, optIdx) {
       userAnswers[qIdx] = optIdx;
 
-      const card = document.getElementById(q-card-${qIdx});
+      const card = document.getElementById(`q-card-${qIdx}`);
       card.classList.remove("unanswered-highlight");
 
       for (let i = 0; i < 3; i++) {
-        const lbl = document.getElementById(opt-label-${qIdx}-${i});
+        const lbl = document.getElementById(`opt-label-${qIdx}-${i}`);
         if (lbl) lbl.classList.remove("selected");
       }
-      document.getElementById(opt-label-${qIdx}-${optIdx}).classList.add("selected");
+      document.getElementById(`opt-label-${qIdx}-${optIdx}`).classList.add("selected");
 
-      const answeredCount = userAnswers.filter(a => a !== null).length;
-      document.getElementById("progress-counter").textContent = ${answeredCount} / ${examData.length};
-      document.getElementById("progress-fill").style.width = ${(answeredCount / examData.length) * 100}%;
+      const answeredCount = userAnswers.filter(function (a) { return a !== null; }).length;
+      document.getElementById("progress-counter").textContent = `${answeredCount} / ${examData.length}`;
+      document.getElementById("progress-fill").style.width = `${(answeredCount / examData.length) * 100}%`;
     }
 
     async function submitExam() {
-      const firstUnanswered = userAnswers.findIndex(a => a === null);
+      const firstUnanswered = userAnswers.findIndex(function (a) { return a === null; });
       const warningEl = document.getElementById("submit-warning");
 
       if (firstUnanswered !== -1) {
-[11/24/2026 6:02 PM] رمضان محروص: warningEl.style.display = "block";
-        warningEl.textContent = ⚠️ يرجى الإجابة عن جميع الأسئلة أولاً (السؤال رقم ${firstUnanswered + 1} لم يُجب عنه بعد).;
-        
-        const targetCard = document.getElementById(q-card-${firstUnanswered});
+        warningEl.style.display = "block";
+        warningEl.textContent = `⚠️ يرجى الإجابة عن جميع الأسئلة أولاً (السؤال رقم ${firstUnanswered + 1} لم يُجب عنه بعد).`;
+
+        const targetCard = document.getElementById(`q-card-${firstUnanswered}`);
         targetCard.classList.add("unanswered-highlight");
         targetCard.scrollIntoView({ behavior: "smooth", block: "center" });
         return;
@@ -779,26 +686,25 @@
       submitBtn.textContent = "جاري التصحيح وإرسال النتيجة...";
 
       let score = 0;
-      let wrongDetails = [];
+      const wrongDetails = [];
       let reviewHtml = "";
 
-      examData.forEach((item, idx) => {
+      examData.forEach(function (item, idx) {
         const isCorrect = userAnswers[idx] === item.answer;
         if (isCorrect) {
           score++;
         } else {
-          wrongDetails.push(س${idx + 1}: ${item.q} (اختار: ${item.options[userAnswers[idx]]}));
+          wrongDetails.push(`س${idx + 1}: ${item.q} (اختار: ${item.options[userAnswers[idx]]})`);
         }
 
-        reviewHtml += 
-          <div class="review-item ${isCorrect ? 'review-correct' : 'review-wrong'}">
-            <div class="review-q">${idx + 1}. ${item.q} ${isCorrect ? '✅' : '❌'}</div>
+        reviewHtml += `
+          <div class="review-item ${isCorrect ? "review-correct" : "review-wrong"}">
+            <div class="review-q">${idx + 1}. ${item.q} ${isCorrect ? "✅" : "❌"}</div>
             <div class="review-ans">
               <div><strong>إجابتك:</strong> ${item.options[userAnswers[idx]]}</div>
-              ${!isCorrect ? <div style="color:#065f46; margin-top:4px;"><strong>الإجابة الصحيحة:</strong> ${item.options[item.answer]}</div> : ''}
+              ${!isCorrect ? `<div style="color:#065f46; margin-top:4px;"><strong>الإجابة الصحيحة:</strong> ${item.options[item.answer]}</div>` : ""}
             </div>
-          </div>
-        ;
+          </div>`;
       });
 
       const percentage = Math.round((score / examData.length) * 100);
@@ -812,11 +718,11 @@
       document.getElementById("exam-screen").classList.add("hidden");
       document.getElementById("result-screen").classList.remove("hidden");
 
-      document.getElementById("res-student-name").textContent = الطالب: ${studentName};
-      document.getElementById("res-student-group").textContent = المجموعة / العمر: ${studentGroup};
+      document.getElementById("res-student-name").textContent = `الطالب: ${studentName}`;
+      document.getElementById("res-student-group").textContent = `المجموعة / العمر: ${studentGroup}`;
       document.getElementById("res-score").textContent = score;
       document.getElementById("res-grade").textContent = grade;
-      document.getElementById("res-percent").textContent = النسبة المئوية: ${percentage}%;
+      document.getElementById("res-percent").textContent = `النسبة المئوية: ${percentage}%`;
       document.getElementById("review-container").innerHTML = reviewHtml;
 
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -832,19 +738,19 @@
             "Accept": "application/json"
           },
           body: JSON.stringify({
-            _subject: نتيجة اختبار أكاديمية فيض | الطالب: ${studentName} (${score}/29),
+            _subject: `نتيجة اختبار أكاديمية فيض | الطالب: ${studentName} (${score}/${examData.length})`,
             _template: "table",
             "اسم الطالب": studentName,
             "المجموعة / العمر": studentGroup,
-            "الدرجة النهائية": ${score} من ${examData.length},
-            "النسبة المئوية": ${percentage}%,
+            "الدرجة النهائية": `${score} من ${examData.length}`,
+            "النسبة المئوية": `${percentage}%`,
             "التقدير العام": grade,
             "تفاصيل الأسئلة الخاطئة": wrongDetails.length > 0 ? wrongDetails.join(" | ") : "لا يوجد (حصل على الدرجة النهائية)"
           })
         });
 
         const result = await response.json();
-        if (result.success === "true" || response.ok) {
+        if (result.success === "true" || result.success === true || response.ok) {
           syncEl.className = "sync-status sync-success";
           syncEl.textContent = "✅ تم إرسال نتيجتك بنجاح إلى إدارة أكاديمية فيض";
         } else {
@@ -855,6 +761,19 @@
         syncEl.textContent = "⚠️ تعذر الإرسال التلقائي، يرجى طباعة النتيجة أو تصوير الشاشة وإرسالها للمعلم.";
       }
     }
+
+    // ربط الأحداث (بدل onclick المضمّن)
+    document.getElementById("start-btn").addEventListener("click", startExam);
+    document.getElementById("submit-btn").addEventListener("click", submitExam);
+    document.getElementById("student-name").addEventListener("keydown", function (e) {
+      if (e.key === "Enter") startExam();
+    });
+    document.getElementById("questions-container").addEventListener("change", function (e) {
+      const t = e.target;
+      if (t && t.matches('input[type="radio"]')) {
+        selectOption(parseInt(t.dataset.q, 10), parseInt(t.dataset.opt, 10));
+      }
+    });
   </script>
 </body>
 </html>
